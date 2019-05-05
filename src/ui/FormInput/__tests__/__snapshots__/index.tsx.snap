@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput - ui component renders correctly 1`] = `
+<form
+  className="fb-form"
+  onSubmit={[Function]}
+>
+  <input
+    className="fb-form__input"
+    onChange={[Function]}
+    placeholder="Test placeholder"
+    type="text"
+    value=""
+  />
+  <div
+    className="fb-form-errors"
+  />
+</form>
+`;

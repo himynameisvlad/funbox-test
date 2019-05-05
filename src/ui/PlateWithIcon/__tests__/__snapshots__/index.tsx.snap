@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlateWithIcon - ui component renders correctly 1`] = `
+<div
+  className="fb-plate"
+>
+  <span>
+    Test title
+  </span>
+  <div
+    className="fb-plate__icon"
+  >
+    <div />
+  </div>
+</div>
+`;

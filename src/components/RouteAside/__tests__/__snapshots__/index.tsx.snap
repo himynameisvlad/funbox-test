@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouteAside - aside component renders correctly 1`] = `
+Array [
+  <div />,
+  <div
+    className="fb-routes-aside__list"
+  >
+    <div />
+  </div>,
+]
+`;

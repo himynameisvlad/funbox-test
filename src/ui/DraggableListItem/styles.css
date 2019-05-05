@@ -1,0 +1,12 @@
+.fb-draggable {
+  cursor: grab;
+}
+
+.fb-draggable + .fb-draggable {
+  margin-top: 8px;
+}
+
+.fb-draggable--is-dragging {
+  cursor: grabbing;
+  opacity: .2;
+}

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteIcon - ui component renders correctly 1`] = `
+<button
+  className="fb-delete-icon"
+  onClick={[Function]}
+/>
+`;

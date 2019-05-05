@@ -1,0 +1,38 @@
+.fb-delete-icon {
+  cursor: pointer;
+  border: none;
+  position: relative;
+  background: transparent;
+  height: 12px;
+  width: 10px;
+  padding: 0;
+  opacity: 0.3;
+  overflow: hidden;
+}
+
+.fb-delete-icon:focus {
+  outline: none;
+}
+
+.fb-delete-icon:hover {
+  opacity: 1;
+}
+
+.fb-delete-icon:before,
+.fb-delete-icon:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background-color: #333;
+}
+
+.fb-delete-icon:before {
+  transform: rotate(45deg);
+}
+.fb-delete-icon:after {
+  transform: rotate(-45deg);
+}

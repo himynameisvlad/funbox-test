@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DraggableListItem - ui component renders correctly 1`] = `
+<li
+  className="fb-draggable fb-draggable--is-dragging"
+  draggable={true}
+  onDragEnd={[MockFunction]}
+  onDragOver={[Function]}
+  onDragStart={[MockFunction]}
+  onDrop={[MockFunction]}
+>
+  <div />
+</li>
+`;

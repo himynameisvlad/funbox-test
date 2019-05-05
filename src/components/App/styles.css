@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic');
+
+html,
+body {
+  height: 100%;
+  color: black;
+  font-family: 'Open Sans', sans-serif, Arial;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 720px;
+  min-height: 100%;
+  padding: 60px 80px;
+  background-color: #f8f5f9;
+  user-select: none;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app__map,
+.app__aside {
+  width: 50%;
+}
+
+.app__aside {
+  padding: 0 20px;
+}
